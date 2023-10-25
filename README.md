@@ -13,7 +13,7 @@ Descomente o arquivo `.env.example` para `.env` e adicione seus valores as vari�
 
 ## Executando os containers
 
-Ao executar o comando abaixo, os containers: web, api, mongodb, mysql e redis, serão criados.
+Ao executar o comando abaixo, os containers: api e mysql serão criados.
 
 ```bash
 $ docker compose up
