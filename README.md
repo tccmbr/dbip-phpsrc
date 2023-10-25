@@ -22,11 +22,9 @@ $ docker compose up
 ## DBIP
 1 - Faça o download da base de dados [aqui](https://vturb-labs.s3.amazonaws.com/challenges/dbip.csv.gz).
 
-2 - Faça o download do projeto [dbip-phpsrc-4.0.tgz](https://download.db-ip.com/free/dbip-phpsrc-4.0.tgz).
+2 - Faça o download do [DBeaver](https://dbeaver.io/download/).
 
-3 - Faça o download do [DBeaver](https://dbeaver.io/download/).
-
-4 - Conecte-se ao `mysql` usando o `DBeaver` e crie a tabela conforme instrução sql abaixo:
+3 - Conecte-se ao `mysql` usando o `DBeaver` e crie a tabela conforme instrução sql abaixo:
 
 ```
 CREATE TABLE `dbip_lookup` (
