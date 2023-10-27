@@ -1,6 +1,7 @@
 <?php
 
 header("Content-Type: application/json; charset=utf-8");
+header("Access-Control-Allow-Origin: *");
 
 /**
  *
@@ -25,7 +26,7 @@ header("Content-Type: application/json; charset=utf-8");
  */
 
 // Include the DB-IP class
-require "dbip.class.php";
+require "../dbip.class.php";
 
 $ip = htmlspecialchars($_GET['ip']);
 
